@@ -18,7 +18,7 @@ load_dotenv()
 groq_api_key = os.getenv("GROQ_API_KEY")
 os.environ["GOOGLE_API_KEY"] = os.getenv("GOOGLE_API_KEY")
 
-st.tiitle("Gemma Model Document Q&A")
+st.title("Gemma Model Document Q&A")
 
 llm =  ChatGroq(groq_api_key=groq_api_key,model_name="Gemma_7b-it")
 
@@ -36,7 +36,7 @@ def vector_embedding():
         
 prompt1=st.text_input("What you want to ask form the document?")
 
-if st.button("Creating Vector Store"):
+if st.button("Document Embedding"):
     vector_embedding()
     st.write("Vector Stor DB is Ready")
     
