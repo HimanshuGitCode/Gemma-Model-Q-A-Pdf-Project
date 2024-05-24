@@ -32,7 +32,7 @@ def vector_embedding():
         st.session_state.docs=st.session_state.loader.load() #document loadings
         st.session_state.text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200) #text splitter
         st.session_state.final_documents=st.session_state.text_splitter.split_documents(st.session_state.docs) #splitting the documents
-        st.session_state.vector_store = FAISS.from_documents(st.session_state.final_documents, st.session_state.embeddings) #vector store
+        st.session_state.vectors_store = FAISS.from_documents(st.session_state.final_documents, st.session_state.embeddings) #vector store
         
 prompt1=st.text_input("What you want to ask form the document?")
 
