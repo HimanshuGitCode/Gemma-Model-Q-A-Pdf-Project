@@ -93,3 +93,70 @@ if prompt1:
         for i, doc in enumerate(response["context"]):
             st.write(doc.page_content)
             st.write("---------------------------------")
+
+## Contribution
+
+We welcome contributions to improve this project! To get started, follow these steps:
+
+1. **Fork the repository**: Click the "Fork" button at the top right of the repository page on GitHub.
+
+2. **Clone the forked repository**:
+    ```sh
+    git clone https://github.com/yourusername/gemma-model-qa.git
+    cd gemma-model-qa
+    ```
+
+3. **Create a new branch**: Make sure you create a new branch for your changes.
+    ```sh
+    git checkout -b my-feature-branch
+    ```
+
+4. **Make your changes**: Implement your feature or fix the bug.
+
+5. **Commit your changes**: Write a clear and descriptive commit message.
+    ```sh
+    git add .
+    git commit -m "Description of the changes"
+    ```
+
+6. **Push to your forked repository**:
+    ```sh
+    git push origin my-feature-branch
+    ```
+
+7. **Open a Pull Request**: Go to the original repository on GitHub and open a Pull Request from your forked repository.
+
+### Guidelines
+
+- Ensure your code follows the existing style and conventions.
+- Write clear and concise commit messages.
+- Update documentation if necessary.
+- Test your changes thoroughly.
+
+We will review your Pull Request and provide feedback. Thank you for contributing!
+
+## License
+
+This project is licensed under the MIT License. See the `LICENSE` file for more details.
+
+```sql
+MIT License
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
