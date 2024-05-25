@@ -93,7 +93,7 @@ if prompt1:
         for i, doc in enumerate(response["context"]):
             st.write(doc.page_content)
             st.write("---------------------------------")
-
+```
 ## Contribution
 
 We welcome contributions to improve this project! To get started, follow these steps:
@@ -102,8 +102,8 @@ We welcome contributions to improve this project! To get started, follow these s
 
 2. **Clone the forked repository**:
     ```sh
-    git clone https://github.com/yourusername/gemma-model-qa.git
-    cd gemma-model-qa
+    git clone https://github.com/HimanshuGitCode/Gemma-Model-Q-A-Pdf-Project.git
+    cd Gemma-Model-Q-A-Pdf-Project
     ```
 
 3. **Create a new branch**: Make sure you create a new branch for your changes.
