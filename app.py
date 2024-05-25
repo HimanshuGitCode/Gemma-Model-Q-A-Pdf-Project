@@ -58,9 +58,11 @@ if prompt1:
             st.write(doc.page_content)
             st.write("---------------------------------")      
         
+        
 st.markdown("---")
 st.write(
     "Made By Himanshu Singh [#Linkedin](https://www.linkedin.com/in/himanshu-singh01/) !"
 )
 st.markdown(
-    "More infos and :star: at [github.com/himanshugitcode/Gemma-Model-Q-A-Pdf-Project](https://github.com/HimanshuGitCode/Gemma-Model-Q-A-Pdf-Project")
+    "More infos and :star: at [github.com/himanshugitcode/Gemma-Model-Q-A-Pdf-Project](https://github.com/HimanshuGitCode/Gemma-Model-Q-A-Pdf-Project) !"
+)
